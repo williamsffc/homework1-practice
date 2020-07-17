@@ -91,7 +91,7 @@ p {
     /* changed margin and padding */
     width: 20%;
     margin-right: 20px;
-    padding: 20px;
+    padding: 15px;
     clear: both;
     float: right;
     height: 100%;
@@ -240,12 +240,13 @@ p {
 
 /* made the font size smaller */
 .footer h2 {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 /* made the font size smaller */
 .footer p{
-    font-size: 13px;
+    font-size: 11px;
+    text-align: center;
 }
 
 
