@@ -14,6 +14,9 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2589bd;
     color: #ffffff;
+/* Changed border and added shadow for enhancement */
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 
 .header h1 {
@@ -21,9 +24,9 @@ body {
     font-size: 48px;
 }
 
+/* i changed it to a darker color, so it can be better seen on the site */
 .header h1 .seo {
     color: #afb6aa;
-    /* i changed it to a darker color, so it can be presive on the site */
 }
 
 .header div {
@@ -49,11 +52,12 @@ p {
     font-size: 16px;
 }
 
-/* adjusted height */
+/* changed height, margin to make make picture more dynamic */
 .hero {
-    height: 630px;
+    height: 590px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
