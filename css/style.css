@@ -6,6 +6,9 @@
 
 body {
     background-color: #d9dcd6;
+    position: absolute;
+    top: 2%;
+    left: 1.5%
 }
 
 /* changed color to match Benefits box */
@@ -17,6 +20,7 @@ body {
 /* Changed border and added shadow for enhancement */
     border-radius: 4px;
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    width: 98.5%;
 }
 
 .header h1 {
@@ -50,17 +54,20 @@ a {
 
 p {
     font-size: 16px;
+    text-align: justify;
 }
 
-/* changed height, margin to make make picture more dynamic */
+/* changed height, margin to make picture more dynamic */
 .hero {
     height: 590px;
-    width: 100%;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    width: 98.5%;
+    margin-bottom: 18px;
+    margin-top: 18px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 
 .float-left {
@@ -74,18 +81,19 @@ p {
 }
 
 .content {
-    width: 75%;
+    width: 77%;
     display: inline-block;
-    margin-left: 20px;
-    
-}
+    margin-left: 2px;
+    margin-right: 2px;
+}   
 
 .benefits {
+    /* changed margin and padding */
+    width: 20%;
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
-    width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibre', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
@@ -110,7 +118,7 @@ p {
 }
 
 .benefit-lead h3 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -121,6 +129,10 @@ p {
 
 .benefit-cost h3 {
     margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits p{
     text-align: center;
 }
 
@@ -182,14 +194,17 @@ p {
 }
 
 .search-engine-optimization img {
+    display: block;
     max-height: 200px;
 }
 
 .online-reputation-management img {
+    display: block;
     max-height: 200px;
 }
 
 .social-media-marketing img {
+    display: block;
     max-height: 200px;
 }
 
@@ -207,11 +222,6 @@ p {
     margin-top: 30px;
     text-align: right;
     font-size: 36px;
-}
-
-/* made description adjusted to the right, closer to pic */
-.online-reputation-management p{
-    text-align: right;
 }
 
 /* made title and description centered the box */
@@ -237,6 +247,5 @@ p {
 .footer p{
     font-size: 13px;
 }
-.benefits p{
-    text-align: center;
-}
+
+
